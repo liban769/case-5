@@ -1,6 +1,0 @@
-bnp_wide <- bnp %>%
-rename(var = statistikkvariabel) %>%
-rename(verdi = value) %>%
-mutate("tid"= as.integer(tid))
-str(bnp)
-print(bnp)
